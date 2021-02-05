@@ -28,7 +28,7 @@
 
 <!-- 过滤条件 -->
 <div id="QueryArea">
-	<form action="/wirelessplatform/board.html" method="get">
+	<form action="/table?method=search" method="get">
 		<input type="hidden" name="method" value="search">
 		&nbsp;&nbsp;桌名：<input type="text" name="keyword" placeholder="请输入餐桌名称"  title="请输入餐桌名称">
 		<input type="submit" value="搜索">
